@@ -8,6 +8,10 @@
       Need a visual blank slate?
       Remove all code in `styles.css`!
     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
@@ -15,7 +19,9 @@
     <header class="header">
       <div class="wrapper">
         <div class="header-inner">
-          <img src="./img/Logo.svg" alt="">
+          <a href="./index.html">
+            <img src="./img/Logo.svg" alt="logo">
+          </a>
           <nav class="nav">
             <div class="nav-links">
               <a href="#">Home</a>
@@ -26,38 +32,81 @@
             </div>
             <div class="auth-buttons">
               <a href="#" class="btn btn-outline">Log In</a>
-              <a href="#" class="btn">Sign Up</a>
+              <a href="#" class="btn btn-hover-sign-up">Sign Up</a>
             </div>
           </nav>
-          
-            <button class="burger" aria-label="Menu toggle">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button> 
-          </div>
+          <button class="burger" aria-label="menu toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button> 
         </div>
       </div>
     </header>
-
+    
     <main>
-      <div class="wrapper">
-        <section class="hero">
-          <div class="banner-content-block">
-            <h1>Reliable, secure conference to get the best events</h1>
-            <p>
-              Hold incredible events, share knowledge, build and grow your
-              product, create opportunity
-            </p>
-            <a href="#" class="btn">Get Started</a>
+      <section class="section-bg-banner">
+        <div class="wrapper">
+          <div class="hero">
+            <div class="banner-content-block">
+              <div>
+                <h1>Reliable, secure conference to get the best events</h1>
+                <p>
+                  Hold incredible events, share knowledge, build and grow your
+                  product, create opportunity
+                </p>
+              </div>
+              <a href="#" class="btn">Create Conference</a>
+              <a href="#" class=" btn btn-secondary">Create Conference</a>
+            </div>
+            <img src="./img/banner.png" alt="img" class="img-circle" />
           </div>
-          <div class="feature-image">
-            <img src="./img/1.webp" alt="img" class="img-circle" />
-          </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
+      <div class="footer-container">
+        <section class="footer-columns">
+          <nav class="footer-column">
+            <h2>Products</h2>
+            <ul>
+              <li><a href="#">Conference</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Solution</a></li>
+            </ul>
+          </nav>
+    
+          <nav class="footer-column">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </nav>
+    
+          <nav class="footer-column">
+            <h2>Support</h2>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Support Policy</a></li>
+              <li><a href="#">Talk to Sales</a></li>
+            </ul>
+          </nav>
+    
+          <section class="footer-column">
+            <h2>Subscribe to our newsletter.</h2>
+            <p>Want to stay up to date with news and updates about our product? Subscribe.</p>
+            <form>
+              <input type="email" placeholder="email@provider.com" required />
+              <button type="submit">Subscribe</button>
+            </form>
+            <small>
+              By subscribing to our newsletter you agree to our privacy policy and will get commercial communication.
+            </small>
+          </section>
+        </section>
+      </div>
       <div>
         <p>&copy; 2025 EventUp. All rights reserved.</p>
       </div>
