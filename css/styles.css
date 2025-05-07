@@ -343,4 +343,17 @@ footer {
     border-radius: 8px;
     border: 2px solid white;
   }
+  .section-logo-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 40px 0px;
+  }
+
+  .section-logo-clients span img {
+    max-width: 146px;
+    max-height: 94px;
+  }
 }
