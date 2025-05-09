@@ -56,6 +56,7 @@ body {
   display: flex;
   gap: 10px;
 }
+
 .auth-buttons a {
   display: flex;
   align-items: center;
@@ -349,11 +350,191 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
+    background-color: #27282E;
     padding: 40px 0px;
   }
 
   .section-logo-clients span img {
     max-width: 146px;
     max-height: 94px;
+  }
+
+  .bg-color-block-device {
+    background-color: #F8F8F8;
+    padding: 56px 0px;
+    
+  }
+
+  .bg-color-block-device h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 16px;
+    color: #0F1017;
+  }
+
+  .bg-color-block-device p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #57585D;
+    line-height: 28px;
+  }
+
+
+  .bg-color-block-device img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 32px;
+  }
+
+
+  .bg-color-block-virtual {
+    background-color: #F8F8F8;
+    padding: 56px 0px;
+    
+  }
+
+  .bg-color-block-virtual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 32px;
+  }
+
+  .bg-color-block-virtual h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 16px;
+    color: #0F1017;
+  }
+
+  .bg-color-block-virtual p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #57585D;
+    line-height: 28px;
+  }
+  /* block video calls and block conferences */
+  
+  .bg-color-block-video-calls, .bg-color-block-conferences {
+    background-color: #0F1017;
+    padding: 56px 0px;
+
+  }
+
+  .block-video-calls-title, .block-conferences-title {
+    margin-bottom: 40px;
+  }
+
+  .bg-color-block-video-calls img, .bg-color-block-conferences img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 32px;
+  }
+
+  .bg-color-block-video-calls span, .bg-color-block-conferences span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 3.2px;
+    color: #9F9FA2;
+    margin-bottom: 16px;
+  }
+
+  .bg-color-block-video-calls h2, .bg-color-block-conferences h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+  }
+
+  .bg-color-block-video-calls p, .bg-color-block-conferences p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #CFCFD1;
+    line-height: 28px;
+  }
+
+  .video-calls-points p, .conference-points p {
+    display: flex;
+  }
+
+  .video-calls-points img, .conference-points img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+
+  .block-ceo {
+    padding: 54px 0px;
+  }
+
+  .block-ceo-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .block-ceo-title img {
+    margin-right: 16px;
+  }
+
+
+  .block-ceo-title h3 {
+    margin-bottom: 4px;
+  }
+
+  .block-ceo-review p {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #0F1017;
+  }
+
+  .block-ceo-review-text {
+    position: relative;
+    max-width: 600px;
+    font-size: clamp(18px,2vw,36px);
+    font-weight: 500;
+    padding: 43px 32px 0px;
+    line-height: 150%;
+    color: #0F1017;
+  }
+
+  .block-ceo-review-text::before,
+  .block-ceo-review-text::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .block-ceo-review-text::before {
+    width: 75px;
+    height: 75px;
+  }
+
+  .block-ceo-review-text::before {
+    top: 38px;
+    left: 38px;
+    transform: translate(-50%, -50%);
+    background-image: url('../img/ornament-up.png');
+  }
+
+  .block-ceo-review-text::after {
+    /* bottom: 10;
+    left: 260; */
+    transform: translate(50%, 50%);
+    background-image: url('../img/ornament-down.png');
+
   }
 }
