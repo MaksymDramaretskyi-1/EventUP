@@ -399,9 +399,12 @@ body {
   .block-ceo-title {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
   }
 
   .block-ceo-title img {
+    width: 56px;
+    height: 56px;
     margin-right: 16px;
   }
 
@@ -409,7 +412,7 @@ body {
   .block-ceo-title h3 {
     margin-bottom: 4px;
   }
-
+ 
   .block-ceo-review p {
     font-size: 32px;
     font-weight: 500;
