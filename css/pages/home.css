@@ -271,7 +271,6 @@ header {
       line-height: 28px;
     }
   
-  
     .bg-color-block-device img {
       width: 100%;
       height: 100%;
@@ -279,7 +278,6 @@ header {
       object-position: center;
       margin-bottom: 32px;
     }
-  
   
     .bg-color-block-virtual {
       background-color: #F8F8F8;
@@ -421,14 +419,14 @@ header {
       top: 38px;
       left: 38px;
       transform: translate(-50%, -50%);
-      background-image: url('../img/ornament-up.png');
+      background-image: url('/img/ornament-up.png');
     }
   
     .block-ceo-review-text::after {
       /* bottom: 10;
       left: 260; */
       transform: translate(50%, 50%);
-      background-image: url('../img/ornament-down.png');
+      background-image: url('/img/ornament-down.png');
   
     }
     .create-conference {
